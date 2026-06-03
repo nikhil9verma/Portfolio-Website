@@ -68,12 +68,13 @@ const About = () => {
               <div className="relative pl-6 border-l border-magenta-500/30 space-y-6">
                 <div className="relative">
                   <div className="absolute -left-[31px] top-1 w-4 h-4 bg-dark-bg border-2 border-magenta-400 rounded-full"></div>
-                  <h4 className="text-xl font-bold text-white">Associate Analyst Intern</h4>
+                  <h4 className="text-xl font-bold text-white">Web Developer Intern</h4>
                   <p className="text-magenta-300 mb-2">Renu Sharma Foundation • Remote</p>
-                  <p className="text-sm text-gray-400 mb-3">2020</p>
-                  <ul className="list-disc pl-5 text-gray-300 text-sm space-y-1">
-                    <li>Performed exploratory analysis and supported data-driven decisions</li>
-                    <li>Collaborated with stakeholders and presented structured insights</li>
+                  <p className="text-sm text-gray-400 mb-3">Jun 2025 – Jul 2025</p>
+                  <ul className="list-disc pl-5 text-gray-300 text-sm space-y-2">
+                    <li>Developed and enhanced RESTful APIs using modern backend frameworks to improve performance, security, and maintainability</li>
+                    <li>Implemented JWT-based authentication and role-based access control to secure application endpoints</li>
+                    <li>Built responsive and dynamic UI components using React and TypeScript; integrated frontend with backend APIs using Axios with interceptors for token management and error handling</li>
                   </ul>
                 </div>
               </div>
