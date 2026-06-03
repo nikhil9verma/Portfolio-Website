@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-magenta-50: #fdf2f8;
+  --color-magenta-100: #fce7f3;
+  --color-magenta-200: #fbcfe8;
+  --color-magenta-300: #f9a8d4;
+  --color-magenta-400: #f472b6;
+  --color-magenta-500: #ec4899;
+  --color-magenta-600: #db2777;
+  --color-magenta-700: #be185d;
+  --color-magenta-800: #9d174d;
+  --color-magenta-900: #831843;
+  --color-magenta-950: #500724;
+
+  --color-dark-bg: #09030b;
+  --color-dark-card: #150813;
+  --color-dark-border: #2c1226;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  
+  html, body {
+    @apply bg-dark-bg text-gray-100 antialiased overflow-x-hidden m-0 p-0 font-sans;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-dark-bg);
+  }
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(21, 8, 19, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(236, 72, 153, 0.1);
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-magenta-400 to-magenta-600;
+}
