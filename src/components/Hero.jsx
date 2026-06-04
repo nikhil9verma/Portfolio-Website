@@ -59,10 +59,10 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.5 }}
           >
-            <a href="#" className="text-gray-400 hover:text-magenta-400 transition-colors">
+            <a href="https://github.com/nikhil9verma" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-magenta-400 transition-colors">
               <FaGithub size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-magenta-400 transition-colors">
+            <a href="https://www.linkedin.com/in/nikhil9verma/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-magenta-400 transition-colors">
               <FaLinkedin size={24} />
             </a>
             <a href="mailto:nikhil9verma9947@gmail.com" className="text-gray-400 hover:text-magenta-400 transition-colors">
@@ -94,7 +94,7 @@ const Hero = () => {
             
             {/* Floating badges */}
             <motion.div 
-              className="absolute -top-4 -right-4 glass px-4 py-2 rounded-full border border-magenta-500/30"
+              className="absolute -top-1 -right-0.5 glass px-4 py-2 rounded-full border border-magenta-500/30"
               animate={{ y: [0, -10, 0] }}
               transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
             >
@@ -102,7 +102,7 @@ const Hero = () => {
             </motion.div>
             
             <motion.div 
-              className="absolute bottom-10 -left-8 glass px-4 py-2 rounded-full border border-magenta-500/30"
+              className="absolute bottom-10 -left-14 glass px-4 py-2 rounded-full border border-magenta-500/30"
               animate={{ y: [0, 10, 0] }}
               transition={{ repeat: Infinity, duration: 4, ease: "easeInOut", delay: 1 }}
             >

@@ -109,8 +109,8 @@ function Bubbles() {
 
 const ThreeBackground = () => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full z-40 overflow-hidden pointer-events-none">
-      <Canvas camera={{ position: [0, 0, 15], fov: 60 }}>
+    <div className="fixed top-0 left-0 w-full h-full z-0 overflow-hidden pointer-events-none">
+      <Canvas camera={{ position: [0, 0, 15], fov: 60 }} style={{ pointerEvents: 'none' }}>
         <ambientLight intensity={1.5} />
         <directionalLight position={[10, 10, 5]} intensity={2.5} color="#ff00ff" />
         <directionalLight position={[-10, -10, -5]} intensity={1.5} color="#00ffff" />

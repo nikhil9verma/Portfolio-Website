@@ -11,14 +11,16 @@ function App() {
   return (
     <div className="relative min-h-screen">
       <ThreeBackground />
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-      </main>
-      <Contact />
+      <div className="relative z-10">
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+        </main>
+        <Contact />
+      </div>
     </div>
   );
 }
