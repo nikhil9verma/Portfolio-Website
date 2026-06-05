@@ -62,7 +62,7 @@ const Hero = () => {
             <a href="https://github.com/nikhil9verma" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-magenta-400 transition-colors">
               <FaGithub size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/nikhil9verma/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-magenta-400 transition-colors">
+            <a href="https://www.linkedin.com/in/account-nikhil9verma/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-magenta-400 transition-colors">
               <FaLinkedin size={24} />
             </a>
             <a href="mailto:nikhil9verma9947@gmail.com" className="text-gray-400 hover:text-magenta-400 transition-colors">
