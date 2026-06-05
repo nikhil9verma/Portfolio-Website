@@ -133,7 +133,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/account-nikhil9verma/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-dark-card border border-dark-border flex items-center justify-center text-gray-400 hover:text-magenta-400 hover:border-magenta-500/50 transition-all">
               <FaLinkedin size={18} />
             </a>
-            <a href="https://leetcode.com/u/nikhil9verma/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-dark-card border border-dark-border flex items-center justify-center text-gray-400 hover:text-magenta-400 hover:border-magenta-500/50 transition-all font-bold text-xs">
+            <a href="https://leetcode.com/u/nikhil8verma/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-dark-card border border-dark-border flex items-center justify-center text-gray-400 hover:text-magenta-400 hover:border-magenta-500/50 transition-all font-bold text-xs">
               LC
             </a>
           </div>

@@ -59,7 +59,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.5 }}
           >
-            <a href="https://github.com/nikhil9verma" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-magenta-400 transition-colors">
+            <a href="https://github.com/nikhil8verma" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-magenta-400 transition-colors">
               <FaGithub size={24} />
             </a>
             <a href="https://www.linkedin.com/in/account-nikhil9verma/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-magenta-400 transition-colors">
