@@ -46,12 +46,7 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a
-              href="#contact"
-              className="ml-4 px-5 py-2 rounded-full border border-magenta-500 text-magenta-400 hover:bg-magenta-500 hover:text-white transition-all duration-300 text-sm font-medium"
-            >
-              Resume
-            </a>
+            
           </div>
 
           {/* Mobile Menu Button */}
