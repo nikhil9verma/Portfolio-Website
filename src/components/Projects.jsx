@@ -4,6 +4,9 @@ import { ExternalLink } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 import metroImg from '../assets/Metro-Transit-Routing.png';
 import finsightImg from '../assets/Fintech_AI.png';
+import eventHubImg from '../assets/event-hub.png';
+import tweetAppImg from '../assets/tweet_app_ui.jpg';
+import ecommerceImg from '../assets/ecommerce_ui.jpg';
 
 const projects = [
   {
@@ -24,7 +27,7 @@ const projects = [
   {
     title: 'Event Hub',
     description: 'Full Stack Event Management System. Built a scalable platform with JWT-based authentication, protected routing, and slot allocation logic to prevent overbooking.',
-    image: null,
+    image: eventHubImg,
     tags: ['Java', 'Spring Boot', 'React', 'PostgreSQL'],
     github: 'https://github.com/nikhil9verma/Event_Hub'
   },
@@ -32,14 +35,14 @@ const projects = [
   {
     title: 'Django Tweet Application',
     description: 'Backend-centric Twitter-like web application with authentication, tweet creation, and timeline features using Django ORM.',
-    image: null,
+    image: tweetAppImg,
     tags: ['Python', 'Django', 'SQLite', 'Backend'],
     github: 'https://github.com/nikhil9verma/Django-Tweet-Project'
   },
   {
     title: 'Full Stack Shopping Platform',
     description: 'E-commerce platform integrating a Gemini API chatbot for user support. Analyzed user interaction flows to identify drop-off points.',
-    image: null,
+    image: ecommerceImg,
     tags: ['Full Stack', 'Gemini API', 'Analytics', 'E-commerce'],
     github: 'https://github.com/nikhil9verma/Shopping-Website'
   }
