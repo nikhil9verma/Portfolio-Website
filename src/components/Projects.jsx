@@ -11,7 +11,7 @@ import ecommerceImg from '../assets/ecommerce_ui.jpg';
 const projects = [
   {
     title: 'Metro Transit Routing System',
-    description: 'Interactive metro route visualization using React and Leaflet. Backend APIs with Node.js and Express for routing data. Enabled route planning and efficient map-based navigation.',
+    description: 'Interactive metro route visualization using React and Leaflet. Backend APIs with Node.js and Express for routing data. Enabled route planning and efficient map-based navigation. (Note: Live app has a ~1 minute cold start).',
     image: metroImg,
     tags: ['React', 'Node.js', 'Express', 'Leaflet', 'API'],
     link: 'https://metro-transit-routing.vercel.app/',
@@ -19,19 +19,21 @@ const projects = [
   },
   {
     title: 'FinSight AI Dashboard',
-    description: 'AI-driven financial dashboard predicting market trends and providing actionable insights. Built with modern web technologies and real-time data processing.',
+    description: 'AI-driven financial dashboard predicting market trends, featuring a RAG pipeline for actionable insights. Built with modern web technologies and real-time data processing. (Note: Live app has a ~1 minute cold start).',
     image: finsightImg,
-    tags: ['React', 'Data Visualization', 'AI', 'Analytics'],
+    tags: ['React', 'Data Visualization', 'AI', 'Analytics', 'RAG'],
+    link: 'https://full-stack-fintech-capstone-project.vercel.app/',
     github: 'https://github.com/nikhil9verma/Full-Stack-Fintech-Capstone-Project'
   },
   {
     title: 'Event Hub',
-    description: 'Full Stack Event Management System. Built a scalable platform with JWT-based authentication, protected routing, and slot allocation logic to prevent overbooking.',
+    description: 'Full Stack Event Management System. Built a scalable platform with JWT-based authentication, protected routing, and slot allocation logic to prevent overbooking. (Note: Live app has a ~1 minute cold start).',
     image: eventHubImg,
     tags: ['Java', 'Spring Boot', 'React', 'PostgreSQL'],
+    link: 'https://event-hub-beta-cyan.vercel.app/',
     github: 'https://github.com/nikhil9verma/Event_Hub'
   },
-  
+
   {
     title: 'Django Tweet Application',
     description: 'Backend-centric Twitter-like web application with authentication, tweet creation, and timeline features using Django ORM.',
@@ -77,9 +79,9 @@ const Projects = () => {
             >
               <div className="relative h-48 overflow-hidden bg-dark-bg/80 flex items-center justify-center">
                 {project.image ? (
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
+                  <img
+                    src={project.image}
+                    alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-80 group-hover:opacity-100"
                     onError={(e) => {
                       e.target.style.display = 'none';
@@ -87,15 +89,15 @@ const Projects = () => {
                     }}
                   />
                 ) : null}
-                <div 
+                <div
                   className={`absolute inset-0 flex flex-col items-center justify-center p-6 text-center ${project.image ? 'hidden' : 'flex'}`}
                   style={{ display: project.image ? 'none' : 'flex' }}
                 >
                   <FaGithub size={32} className="text-gray-400 mb-3" />
                   <span className="text-magenta-300 font-medium mb-2">{project.title}</span>
-                  <a 
-                    href={project.github || "https://github.com/nikhil9verma"} 
-                    target="_blank" 
+                  <a
+                    href={project.github || "https://github.com/nikhil9verma"}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs text-gray-300 hover:text-white bg-dark-card/50 px-3 py-1.5 rounded-full border border-gray-600 hover:border-magenta-500 transition-colors z-10"
                   >
@@ -103,7 +105,7 @@ const Projects = () => {
                   </a>
                   <div className="absolute inset-0 bg-gradient-to-tr from-magenta-900/40 to-purple-900/40 opacity-50 mix-blend-overlay"></div>
                 </div>
-                
+
                 {/* Overlay on hover */}
                 <div className="absolute inset-0 bg-dark-bg/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
                   {project.link && (
@@ -116,13 +118,13 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-              
+
               <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-xl font-bold text-white mb-2 group-hover:text-magenta-400 transition-colors">{project.title}</h3>
                 <p className="text-gray-400 text-sm leading-relaxed mb-6 flex-1">
                   {project.description}
                 </p>
-                
+
                 <div className="flex flex-wrap gap-2 mt-auto">
                   {project.tags.map((tag, idx) => (
                     <span key={idx} className="text-xs font-medium text-magenta-300 bg-magenta-900/30 px-2 py-1 rounded-md border border-magenta-500/20">
