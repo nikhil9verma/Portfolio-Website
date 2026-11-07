@@ -22,7 +22,7 @@ const projects = [
     description: 'AI-driven financial dashboard predicting market trends, featuring a RAG pipeline for actionable insights. Built with modern web technologies and real-time data processing. (Note: Live app has a ~1 minute cold start).',
     image: finsightImg,
     tags: ['React', 'Data Visualization', 'AI', 'Analytics', 'RAG'],
-    link: 'https://full-stack-fintech-capstone-project.vercel.app/',
+    link: 'https://fintech-drift-monitoring.onrender.com/',
     github: 'https://github.com/nikhil9verma/Full-Stack-Fintech-Capstone-Project'
   },
   {
